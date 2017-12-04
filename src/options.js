@@ -42,6 +42,7 @@ export type SerializerOptions = {
   profile?: boolean,
   inlineExpressions?: boolean,
   trace?: boolean,
+  heapGraph?: boolean,
 };
 
 export type PartialEvaluatorOptions = {
